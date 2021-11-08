@@ -35,7 +35,7 @@ const AppointmentBanner = () => {
                             <Typography sx={{ mt: 2 }} variant="h4" style={{ color: 'white', fontSize: 14, textAlign: 'start', lineHeight: 2 }}>
                                 It is a long establish fact that a reader will be distractedby the raddable content of a page when looking at its
                             </Typography>
-                            <Button sx={{ mt: 2 }} variant="contained">Learn More</Button>
+                            <Button sx={{ mt: 2, backgroundColor: '#2FD6C2' }} variant="contained">Learn More</Button>
                         </Box>
                     </Grid>
                 </Grid>
