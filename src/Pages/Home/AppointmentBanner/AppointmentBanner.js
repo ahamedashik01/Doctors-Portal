@@ -15,12 +15,12 @@ const appointmentBg = {
 
 const AppointmentBanner = () => {
     return (
-        <Container>
-            <Box style={appointmentBg} sx={{ flexGrow: 1, px: 2 }}>
+        < Box style={appointmentBg}>
+            <Container sx={{ flexGrow: 1, px: 2 }}>
                 <Grid container spacing={2}>
                     <Grid item style={{ padding: 0, margin: 0 }} item xs={12} md={6}>
                         <img
-                            style={{ width: 400, marginTop: "-100px", position: 'bottom' }}
+                            style={{ width: 500, marginTop: "-100px", position: 'bottom' }}
                             src={doctor} alt="" />
                     </Grid>
                     <Grid item xs={12} md={6}>
@@ -39,8 +39,8 @@ const AppointmentBanner = () => {
                         </Box>
                     </Grid>
                 </Grid>
-            </Box >
-        </Container>
+            </Container >
+        </Box>
     );
 };
 
